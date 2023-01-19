@@ -92,7 +92,7 @@ header {
 
 .mainList {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 1rem 3rem;
     margin-top: 1rem;
@@ -103,4 +103,9 @@ header {
 
 .listImg {
     width: 30px;
+    margin-right: 1rem;
+}
+
+.gender {
+    margin-right: 1rem;
 }
