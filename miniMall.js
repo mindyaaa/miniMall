@@ -46,9 +46,9 @@ function setEventListeners(items) {
 
 loadItems()
 .then((items) => {
-    console.log(items);
+    // console.log(items);
     displayItems(items);
     setEventListeners(items)
 })
-.catch(console.log('error'));
+// .catch(console.log('error'));
 

@@ -26,11 +26,21 @@ button {
     text-decoration: none;
     background-color: transparent;
     cursor: pointer;
+    transition: all 3000 ease-in-out;
 }
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button img:hover {
+    transform: scale(1.1);
+}
+
 
 /* 헤더  */
 header {
-    background-color: wheat;
+    /* background-color: wheat; */
     margin: 2rem 0 ;
     width: 100%;
     display: flex;
@@ -42,12 +52,16 @@ header {
     text-align: center;
 }
 
+#homeLogo :hover {
+    transform: scale(1.1);
+}
+
 #imgMenu {
     width: 50px;
 }
 
 #textMenu {
-    font-size: var(--font-medium)
+    font-size: var(--font-medium);
 }
 
 .navBar {
